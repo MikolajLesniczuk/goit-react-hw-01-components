@@ -1,4 +1,4 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import s from './Transactions.module.css'
 
 export const TransactionHistory = ({items}) => {
@@ -27,4 +27,14 @@ return (
 
 )
 
+}
+
+TransactionHistory.prototype = {
+  items : PropTypes.shape({
+id: PropTypes.string,
+type: PropTypes.string,
+amount: PropTypes.number,
+currency: PropTypes.string,
+
+  })
 }
