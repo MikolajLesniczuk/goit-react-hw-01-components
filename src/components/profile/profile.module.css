@@ -1,5 +1,6 @@
 .profile {
     background-color: #fff;
+    max-width: 1200px;
     width: 300px;
     margin: 0px auto;
     margin-bottom: 100px;
@@ -7,6 +8,11 @@
     box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.8);
   }
   
+.username {
+  font-size: 32px;
+  font-weight: 700;
+}
+
   .description {
     display: flex;
     justify-content: center;

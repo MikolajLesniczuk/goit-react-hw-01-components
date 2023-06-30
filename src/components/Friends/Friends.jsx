@@ -14,12 +14,12 @@ export const Friends = ({friends}) => {
   <p className={s.name}>{name}</p>
 </li>
 
-)  ) }
+))}
 
 </ul>
-    )
+    
 
-}
+)}
 
 Friends.prototype = {
 avatar: PropTypes.string,
