@@ -1,0 +1,1 @@
+import { Friends } from "./Friends";
